@@ -1,0 +1,21 @@
+[job_platform_config]
+url=[
+    "https://www.linkedin.com/jobs/search?keywords=React%20Js&location=Lahore&geoId=104112529&distance=25&f_TPR=&position=1&pageNum=0",
+    
+]
+signin_url="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKV5Mgs21RYI8TaE7g0BhTk-bb_yKKU7ZdGDDlV08KVjcUsNd5bI2NUY2ZvMIc0atE7qUWevUnu&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1675656623%3A1746445207113095"
+
+[credentials]
+email="talhakhalid2018@gmail.com"
+password="Talha@584970"
+
+[email-config]
+recipient=[
+"talha@talhamail.com",
+"fatima136@talhamail.com",
+"jobseek@tkmail.talhahub.io",
+"dev121@devs.cybertalha.com"
+]
+
+[output_paths]
+main_csv_path="./csv_dir/"

@@ -1,0 +1,349 @@
+2025-05-09 12:20:03,730 - INFO - Calling init_configs
+2025-05-09 12:20:03,732 - INFO - config load sucess \u2705
+2025-05-09 12:20:03,732 - INFO - Finished init_configs
+2025-05-09 12:20:03,732 - INFO - result:::: None
+2025-05-09 12:20:03,732 - INFO - Calling init_driver
+2025-05-09 12:20:10,537 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 12:20:11,835 - INFO - Finished init_driver
+2025-05-09 12:20:11,835 - INFO - result:::: None
+2025-05-09 12:20:11,835 - INFO - Calling get_jobs
+2025-05-09 12:20:11,835 - INFO - Calling init_driver
+2025-05-09 12:20:11,835 - INFO - Finished init_driver
+2025-05-09 12:20:11,835 - INFO - result:::: None
+2025-05-09 12:20:37,087 - INFO - Calling get_job_data
+2025-05-09 12:20:37,100 - INFO - LinkedIn loaded successfully
+2025-05-09 12:21:24,640 - INFO - Scraped 117 jobs successfully
+2025-05-09 12:21:24,640 - INFO - Finished get_job_data
+2025-05-09 12:21:24,641 - INFO - result:::: [<undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.146")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.147")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.148")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.149")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.150")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.151")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.152")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.153")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.154")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.155")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.156")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.157")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.158")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.159")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.160")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.161")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.162")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.163")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.164")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.165")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.166")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.167")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.168")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.169")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.170")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.171")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.172")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.173")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.174")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.175")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.176")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.177")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.178")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.179")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.180")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.181")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.182")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.183")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.184")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.185")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.186")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.187")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.188")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.189")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.190")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.191")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.192")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.193")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.194")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.195")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.196")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.197")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.198")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.199")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.200")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.201")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.202")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.203")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.204")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.230")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.231")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.232")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.233")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.234")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.235")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.236")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.237")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.238")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.244")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.245")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.246")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.247")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.248")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.249")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.250")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.251")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.252")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.253")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.257")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.258")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.259")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.260")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.261")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.262")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.263")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.264")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.265")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.266")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.269")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.270")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.271")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.272")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.273")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.274")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.275")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.276")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.277")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.281")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.282")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.283")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.284")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.285")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.286")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.287")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.288")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.289")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.290")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.293")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.294")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.295")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.296")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.297")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.298")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.299")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.300")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.301")>, <undetected_chromedriver.webelement.WebElement (session="7e78c5db46e79b3169e27d4310afb5f2", element="f.46B843529128FCF19BC281764EC568A5.d.BFD7E0E9B7DB25AD71D934F2FA7E10B6.e.302")>]
+2025-05-09 12:21:24,641 - INFO - Calling cleanup_driver
+2025-05-09 12:21:28,890 - INFO - Finished cleanup_driver
+2025-05-09 12:21:28,890 - INFO - result:::: None
+2025-05-09 12:21:30,891 - INFO - Finished get_jobs
+2025-05-09 12:21:30,891 - INFO - result:::: None
+2025-05-09 12:38:35,307 - INFO - Calling init_configs
+2025-05-09 12:38:35,315 - INFO - config load sucess \u2705
+2025-05-09 12:38:35,315 - INFO - Finished init_configs
+2025-05-09 12:38:35,315 - INFO - result:::: None
+2025-05-09 12:38:35,315 - INFO - Calling init_driver
+2025-05-09 12:39:16,078 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 12:39:17,467 - INFO - Finished init_driver
+2025-05-09 12:39:17,467 - INFO - result:::: None
+2025-05-09 12:39:17,467 - INFO - Calling get_jobs
+2025-05-09 12:39:17,467 - INFO - Calling init_driver
+2025-05-09 12:39:17,467 - INFO - Finished init_driver
+2025-05-09 12:39:17,468 - INFO - result:::: None
+2025-05-09 12:39:51,011 - INFO - Calling get_job_data
+2025-05-09 12:39:51,024 - INFO - LinkedIn loaded successfully
+2025-05-09 12:40:38,619 - INFO - Scraped 117 jobs successfully
+2025-05-09 12:40:38,619 - INFO - Finished get_job_data
+2025-05-09 12:40:38,619 - INFO - result:::: [<undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.100")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.103")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.107")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.110")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.193")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.194")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.195")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.196")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.197")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.198")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.199")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.200")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.201")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.202")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.203")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.204")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.205")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.206")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.207")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.208")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.209")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.210")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.211")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.212")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.213")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.214")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.215")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.216")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.217")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.218")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.219")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.220")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.221")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.222")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.223")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.224")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.225")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.226")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.227")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.228")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.229")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.230")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.231")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.232")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.233")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.234")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.235")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.236")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.237")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.238")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.239")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.240")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.241")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.242")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.243")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.244")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.245")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.246")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.247")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.272")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.273")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.274")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.275")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.276")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.277")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.278")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.279")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.280")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.282")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.283")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.284")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.285")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.286")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.287")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.288")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.289")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.290")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.291")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.293")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.294")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.295")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.296")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.297")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.298")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.299")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.300")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.301")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.302")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.303")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.304")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.305")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.306")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.307")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.308")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.309")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.310")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.311")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.312")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.313")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.314")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.315")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.316")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.317")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.318")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.319")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.320")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.321")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.322")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.324")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.325")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.326")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.327")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.328")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.329")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.330")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.331")>, <undetected_chromedriver.webelement.WebElement (session="a3965f4b16010a2e582e5cb8bea76f67", element="f.AE6555B90D5BCC48CE906CE9157A8F9C.d.C4CEEA8614A492AD371B0D39332A6316.e.332")>]
+2025-05-09 12:40:38,619 - INFO - Calling cleanup_driver
+2025-05-09 12:40:42,862 - INFO - Finished cleanup_driver
+2025-05-09 12:40:42,862 - INFO - result:::: None
+2025-05-09 12:40:47,863 - INFO - Finished get_jobs
+2025-05-09 12:40:47,863 - INFO - result:::: None
+2025-05-09 12:45:12,651 - INFO - Calling init_configs
+2025-05-09 12:45:12,672 - INFO - config load sucess \u2705
+2025-05-09 12:45:12,672 - INFO - Finished init_configs
+2025-05-09 12:45:12,672 - INFO - result:::: None
+2025-05-09 12:45:12,672 - INFO - Calling init_driver
+2025-05-09 12:45:23,193 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 12:45:24,476 - INFO - Finished init_driver
+2025-05-09 12:45:24,476 - INFO - result:::: None
+2025-05-09 12:45:24,476 - INFO - Calling get_jobs
+2025-05-09 12:45:24,476 - INFO - Calling init_driver
+2025-05-09 12:45:24,476 - INFO - Finished init_driver
+2025-05-09 12:45:24,476 - INFO - result:::: None
+2025-05-09 12:45:49,659 - INFO - Calling get_job_data
+2025-05-09 12:45:49,659 - INFO - Finished get_job_data
+2025-05-09 12:45:49,659 - INFO - result:::: <generator object WebScraper.get_job_data at 0x0000025C678D1CC0>
+2025-05-09 12:45:49,659 - INFO - Calling cleanup_driver
+2025-05-09 12:45:53,945 - INFO - Finished cleanup_driver
+2025-05-09 12:45:53,945 - INFO - result:::: None
+2025-05-09 12:45:57,407 - INFO - Calling init_configs
+2025-05-09 12:45:57,408 - INFO - config load sucess \u2705
+2025-05-09 12:45:57,408 - INFO - Finished init_configs
+2025-05-09 12:45:57,408 - INFO - result:::: None
+2025-05-09 12:45:57,408 - INFO - Calling init_driver
+2025-05-09 12:46:03,124 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 12:46:03,933 - INFO - Finished init_driver
+2025-05-09 12:46:03,933 - INFO - result:::: None
+2025-05-09 12:46:03,933 - INFO - Calling get_jobs
+2025-05-09 12:46:03,933 - INFO - Calling init_driver
+2025-05-09 12:46:03,933 - INFO - Finished init_driver
+2025-05-09 12:46:03,933 - INFO - result:::: None
+2025-05-09 12:46:28,106 - INFO - Calling get_job_data
+2025-05-09 12:46:28,106 - INFO - Finished get_job_data
+2025-05-09 12:46:28,106 - INFO - result:::: <generator object WebScraper.get_job_data at 0x0000018DC3BA1CC0>
+2025-05-09 12:46:28,106 - INFO - Calling cleanup_driver
+2025-05-09 12:46:32,342 - INFO - Finished cleanup_driver
+2025-05-09 12:46:32,342 - INFO - result:::: None
+2025-05-09 12:46:36,344 - INFO - Finished get_jobs
+2025-05-09 12:46:36,344 - INFO - result:::: None
+2025-05-09 12:46:56,875 - INFO - Calling init_configs
+2025-05-09 12:46:56,876 - INFO - config load sucess \u2705
+2025-05-09 12:46:56,876 - INFO - Finished init_configs
+2025-05-09 12:46:56,876 - INFO - result:::: None
+2025-05-09 12:46:56,876 - INFO - Calling init_driver
+2025-05-09 12:47:02,239 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 12:47:03,050 - INFO - Finished init_driver
+2025-05-09 12:47:03,050 - INFO - result:::: None
+2025-05-09 12:47:03,050 - INFO - Calling get_jobs
+2025-05-09 12:47:03,050 - INFO - Calling init_driver
+2025-05-09 12:47:03,050 - INFO - Finished init_driver
+2025-05-09 12:47:03,050 - INFO - result:::: None
+2025-05-09 12:47:27,172 - INFO - Calling get_job_data
+2025-05-09 12:47:27,172 - INFO - Finished get_job_data
+2025-05-09 12:47:27,172 - INFO - result:::: <generator object WebScraper.get_job_data at 0x0000024E5AF0EB00>
+2025-05-09 12:47:27,172 - INFO - Calling cleanup_driver
+2025-05-09 12:47:31,417 - INFO - Finished cleanup_driver
+2025-05-09 12:47:31,418 - INFO - result:::: None
+2025-05-09 15:45:54,364 - INFO - Calling init_configs
+2025-05-09 15:45:54,410 - INFO - config load sucess \u2705
+2025-05-09 15:45:54,410 - INFO - Finished init_configs
+2025-05-09 15:45:54,410 - INFO - result:::: None
+2025-05-09 15:45:54,410 - INFO - Calling init_driver
+2025-05-09 15:50:50,253 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 15:50:52,014 - INFO - Finished init_driver
+2025-05-09 15:50:52,014 - INFO - result:::: None
+2025-05-09 15:50:52,014 - INFO - Calling get_jobs
+2025-05-09 15:50:52,014 - INFO - Calling init_driver
+2025-05-09 15:50:52,014 - INFO - Finished init_driver
+2025-05-09 15:50:52,014 - INFO - result:::: None
+2025-05-09 15:52:27,917 - INFO - Calling get_job_data
+2025-05-09 15:52:28,167 - INFO - LinkedIn loaded successfully
+2025-05-09 15:53:05,034 - ERROR - Job scraping failed: Message: invalid selector: No selector specified
+  (Session info: chrome=136.0.7103.49)
+Stacktrace:
+	GetHandleVerifier [0x0091FC53+61635]
+	GetHandleVerifier [0x0091FC94+61700]
+	(No symbol) [0x007405D3]
+	(No symbol) [0x00746DD0]
+	(No symbol) [0x007490CA]
+	(No symbol) [0x00749147]
+	(No symbol) [0x00788234]
+	(No symbol) [0x00788D3B]
+	(No symbol) [0x0077E111]
+	(No symbol) [0x007AD2E4]
+	(No symbol) [0x0077E034]
+	(No symbol) [0x007AD514]
+	(No symbol) [0x007CE61B]
+	(No symbol) [0x007AD096]
+	(No symbol) [0x0077C840]
+	(No symbol) [0x0077D6A4]
+	GetHandleVerifier [0x00BA4573+2701795]
+	GetHandleVerifier [0x00B9FCF6+2683238]
+	GetHandleVerifier [0x00BBAA3E+2793134]
+	GetHandleVerifier [0x00936915+155013]
+	GetHandleVerifier [0x0093CFFD+181357]
+	GetHandleVerifier [0x009274A8+92440]
+	GetHandleVerifier [0x00927650+92864]
+	GetHandleVerifier [0x00912040+5296]
+	BaseThreadInitThunk [0x765DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FA82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x76FA827E+238]
+
+2025-05-09 15:53:05,034 - INFO - Calling cleanup_driver
+2025-05-09 15:53:09,272 - INFO - Finished cleanup_driver
+2025-05-09 15:53:09,272 - INFO - result:::: None
+2025-05-09 15:53:09,272 - INFO - Finished get_job_data
+2025-05-09 15:53:09,272 - INFO - result:::: []
+2025-05-09 15:53:09,272 - INFO - Calling cleanup_driver
+2025-05-09 15:53:09,272 - INFO - Finished cleanup_driver
+2025-05-09 15:53:09,272 - INFO - result:::: None
+2025-05-09 15:53:12,274 - INFO - Finished get_jobs
+2025-05-09 15:53:12,274 - INFO - result:::: None
+2025-05-09 18:06:48,853 - INFO - Calling init_configs
+2025-05-09 18:06:48,883 - INFO - config load sucess \u2705
+2025-05-09 18:06:48,883 - INFO - Finished init_configs
+2025-05-09 18:06:48,883 - INFO - result:::: None
+2025-05-09 18:06:48,884 - INFO - Calling init_driver
+2025-05-09 18:08:21,406 - INFO - Calling init_configs
+2025-05-09 18:08:21,407 - INFO - config load sucess \u2705
+2025-05-09 18:08:21,407 - INFO - Finished init_configs
+2025-05-09 18:08:21,407 - INFO - result:::: None
+2025-05-09 18:08:21,407 - INFO - Calling init_driver
+2025-05-09 18:08:46,883 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 18:08:47,989 - INFO - Finished init_driver
+2025-05-09 18:08:47,989 - INFO - result:::: None
+2025-05-09 18:08:47,989 - INFO - Calling get_jobs
+2025-05-09 18:08:47,989 - INFO - Calling init_driver
+2025-05-09 18:08:47,989 - INFO - Finished init_driver
+2025-05-09 18:08:47,989 - INFO - result:::: None
+2025-05-09 18:09:15,911 - INFO - Calling get_job_data
+2025-05-09 18:09:15,923 - INFO - LinkedIn loaded successfully
+2025-05-09 18:10:03,719 - ERROR - Job scraping failed: Message: invalid selector: No selector specified
+  (Session info: chrome=136.0.7103.49)
+Stacktrace:
+	GetHandleVerifier [0x00D5FC53+61635]
+	GetHandleVerifier [0x00D5FC94+61700]
+	(No symbol) [0x00B805D3]
+	(No symbol) [0x00B86DD0]
+	(No symbol) [0x00B890CA]
+	(No symbol) [0x00B89147]
+	(No symbol) [0x00BC8234]
+	(No symbol) [0x00BC8D3B]
+	(No symbol) [0x00BBE111]
+	(No symbol) [0x00BED2E4]
+	(No symbol) [0x00BBE034]
+	(No symbol) [0x00BED514]
+	(No symbol) [0x00C0E61B]
+	(No symbol) [0x00BED096]
+	(No symbol) [0x00BBC840]
+	(No symbol) [0x00BBD6A4]
+	GetHandleVerifier [0x00FE4573+2701795]
+	GetHandleVerifier [0x00FDFCF6+2683238]
+	GetHandleVerifier [0x00FFAA3E+2793134]
+	GetHandleVerifier [0x00D76915+155013]
+	GetHandleVerifier [0x00D7CFFD+181357]
+	GetHandleVerifier [0x00D674A8+92440]
+	GetHandleVerifier [0x00D67650+92864]
+	GetHandleVerifier [0x00D52040+5296]
+	BaseThreadInitThunk [0x765DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FA82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x76FA827E+238]
+
+2025-05-09 18:10:03,719 - INFO - Calling cleanup_driver
+2025-05-09 18:10:08,035 - INFO - Finished cleanup_driver
+2025-05-09 18:10:08,035 - INFO - result:::: None
+2025-05-09 18:10:08,303 - INFO - Finished get_job_data
+2025-05-09 18:10:08,303 - INFO - result:::: []
+2025-05-09 18:10:08,303 - INFO - Calling cleanup_driver
+2025-05-09 18:10:08,303 - INFO - Finished cleanup_driver
+2025-05-09 18:10:08,303 - INFO - result:::: None
+2025-05-09 18:10:13,303 - INFO - Finished get_jobs
+2025-05-09 18:10:13,303 - INFO - result:::: None
+2025-05-09 18:21:42,869 - INFO - Calling init_configs
+2025-05-09 18:21:42,897 - INFO - config load sucess \u2705
+2025-05-09 18:21:42,897 - INFO - Finished init_configs
+2025-05-09 18:21:42,897 - INFO - result:::: None
+2025-05-09 18:21:42,897 - INFO - Calling init_driver
+2025-05-09 18:27:47,181 - INFO - Calling init_configs
+2025-05-09 18:27:47,182 - INFO - config load sucess \u2705
+2025-05-09 18:27:47,182 - INFO - Finished init_configs
+2025-05-09 18:27:47,182 - INFO - result:::: None
+2025-05-09 18:27:47,182 - INFO - Calling init_driver
+2025-05-09 18:49:49,724 - INFO - Calling init_configs
+2025-05-09 18:49:49,742 - INFO - config load sucess \u2705
+2025-05-09 18:49:49,742 - INFO - Finished init_configs
+2025-05-09 18:49:49,742 - INFO - result:::: None
+2025-05-09 18:49:49,742 - INFO - Calling init_driver
+2025-05-09 18:55:26,957 - INFO - Calling init_configs
+2025-05-09 18:55:26,957 - INFO - config load sucess \u2705
+2025-05-09 18:55:26,957 - INFO - Finished init_configs
+2025-05-09 18:55:26,957 - INFO - result:::: None
+2025-05-09 18:55:26,958 - INFO - Calling init_driver
+2025-05-09 18:56:32,930 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 18:56:34,367 - INFO - Finished init_driver
+2025-05-09 18:56:34,367 - INFO - result:::: None
+2025-05-09 18:56:34,367 - INFO - Calling get_jobs
+2025-05-09 18:56:34,367 - INFO - Calling init_driver
+2025-05-09 18:56:34,367 - INFO - Finished init_driver
+2025-05-09 18:56:34,367 - INFO - result:::: None
+2025-05-09 18:56:59,797 - INFO - Calling get_job_data
+2025-05-09 18:56:59,812 - INFO - LinkedIn loaded successfully
+2025-05-09 18:57:52,211 - INFO - Finished get_job_data
+2025-05-09 18:57:52,211 - INFO - result:::: None
+2025-05-09 18:57:52,211 - INFO - Calling cleanup_driver
+2025-05-09 18:57:56,458 - INFO - Finished cleanup_driver
+2025-05-09 18:57:56,458 - INFO - result:::: None
+2025-05-09 18:58:00,459 - INFO - Finished get_jobs
+2025-05-09 18:58:00,459 - INFO - result:::: None
+2025-05-09 18:58:00,459 - INFO - Calling cleanup_driver
+2025-05-09 18:58:00,459 - INFO - Finished cleanup_driver
+2025-05-09 18:58:00,459 - INFO - result:::: None
+2025-05-09 19:02:08,477 - INFO - Calling init_configs
+2025-05-09 19:02:08,500 - INFO - config load sucess \u2705
+2025-05-09 19:02:08,500 - INFO - Finished init_configs
+2025-05-09 19:02:08,500 - INFO - result:::: None
+2025-05-09 19:02:08,500 - INFO - Calling init_driver
+2025-05-09 19:02:20,048 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 19:02:21,204 - INFO - Finished init_driver
+2025-05-09 19:02:21,204 - INFO - result:::: None
+2025-05-09 19:02:21,204 - INFO - Calling get_jobs
+2025-05-09 19:02:21,204 - INFO - Calling init_driver
+2025-05-09 19:02:21,204 - INFO - Finished init_driver
+2025-05-09 19:02:21,204 - INFO - result:::: None
+2025-05-09 19:13:27,664 - INFO - Calling get_job_data
+2025-05-09 19:13:27,678 - INFO - LinkedIn loaded successfully
+2025-05-09 19:14:19,259 - INFO - Finished get_job_data
+2025-05-09 19:14:19,259 - INFO - result:::: None
+2025-05-09 19:14:19,259 - INFO - Calling cleanup_driver
+2025-05-09 19:14:23,535 - INFO - Finished cleanup_driver
+2025-05-09 19:14:23,536 - INFO - result:::: None
+2025-05-09 19:14:27,537 - INFO - Finished get_jobs
+2025-05-09 19:14:27,537 - INFO - result:::: None
+2025-05-09 19:55:51,594 - INFO - Calling init_configs
+2025-05-09 19:55:51,630 - INFO - config load sucess \u2705
+2025-05-09 19:55:51,630 - INFO - Finished init_configs
+2025-05-09 19:55:51,631 - INFO - result:::: None
+2025-05-09 19:55:51,631 - INFO - Calling init_driver
+2025-05-09 19:56:01,344 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 19:56:02,461 - INFO - Finished init_driver
+2025-05-09 19:56:02,461 - INFO - result:::: None
+2025-05-09 19:56:02,461 - INFO - Calling get_jobs
+2025-05-09 19:56:02,461 - INFO - Calling init_driver
+2025-05-09 19:56:02,461 - INFO - Finished init_driver
+2025-05-09 19:56:02,461 - INFO - result:::: None
+2025-05-09 19:56:28,050 - INFO - Calling get_job_data
+2025-05-09 19:56:28,050 - INFO - Finished get_job_data
+2025-05-09 19:56:28,050 - INFO - result:::: <generator object WebScraper.get_job_data at 0x0000024BC5EF7220>
+2025-05-09 19:56:28,065 - INFO - LinkedIn loaded successfully
+2025-05-09 19:57:21,141 - INFO - Calling cleanup_driver
+2025-05-09 19:57:25,416 - INFO - Finished cleanup_driver
+2025-05-09 19:57:25,416 - INFO - result:::: None
+2025-05-09 19:57:27,417 - INFO - Finished get_jobs
+2025-05-09 19:57:27,417 - INFO - result:::: None
+2025-05-09 20:10:00,954 - INFO - Calling init_configs
+2025-05-09 20:10:00,956 - INFO - config load sucess \u2705
+2025-05-09 20:10:00,956 - INFO - Finished init_configs
+2025-05-09 20:10:00,956 - INFO - result:::: None
+2025-05-09 20:10:00,956 - INFO - Calling init_driver
+2025-05-09 20:10:21,631 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 20:10:22,883 - INFO - Finished init_driver
+2025-05-09 20:10:22,883 - INFO - result:::: None
+2025-05-09 20:10:22,883 - INFO - Calling get_jobs
+2025-05-09 20:10:22,883 - INFO - Calling init_driver
+2025-05-09 20:10:22,883 - INFO - Finished init_driver
+2025-05-09 20:10:22,883 - INFO - result:::: None
+2025-05-09 20:10:50,934 - INFO - Calling get_job_data
+2025-05-09 20:10:50,934 - INFO - Finished get_job_data
+2025-05-09 20:10:50,934 - INFO - result:::: <generator object WebScraper.get_job_data at 0x000001BFB8717220>
+2025-05-09 20:10:50,948 - INFO - LinkedIn loaded successfully
+2025-05-09 20:11:44,630 - INFO - Calling cleanup_driver
+2025-05-09 20:11:49,129 - INFO - Finished cleanup_driver
+2025-05-09 20:11:49,129 - INFO - result:::: None
+2025-05-09 20:11:51,130 - INFO - Finished get_jobs
+2025-05-09 20:11:51,130 - INFO - result:::: None
+2025-05-09 20:14:04,309 - INFO - Calling init_configs
+2025-05-09 20:14:04,310 - INFO - config load sucess \u2705
+2025-05-09 20:14:04,310 - INFO - Finished init_configs
+2025-05-09 20:14:04,310 - INFO - result:::: None
+2025-05-09 20:14:04,310 - INFO - Calling init_driver
+2025-05-09 20:14:15,264 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 20:14:16,081 - INFO - Finished init_driver
+2025-05-09 20:14:16,082 - INFO - result:::: None
+2025-05-09 20:14:16,082 - INFO - Calling get_jobs
+2025-05-09 20:14:16,082 - INFO - Finished get_jobs
+2025-05-09 20:14:16,082 - INFO - result:::: <generator object WebScraper.get_jobs at 0x000001DB6EEBE7A0>
+2025-05-09 20:15:21,102 - INFO - Calling init_configs
+2025-05-09 20:15:21,103 - INFO - config load sucess \u2705
+2025-05-09 20:15:21,103 - INFO - Finished init_configs
+2025-05-09 20:15:21,103 - INFO - result:::: None
+2025-05-09 20:15:21,103 - INFO - Calling init_driver
+2025-05-09 20:15:33,747 - INFO - patching driver executable C:\Users\Talha Khalid\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-09 20:15:34,579 - INFO - Finished init_driver
+2025-05-09 20:15:34,579 - INFO - result:::: None
+2025-05-09 20:15:34,579 - INFO - Calling get_jobs
+2025-05-09 20:15:34,579 - INFO - Finished get_jobs
+2025-05-09 20:15:34,579 - INFO - result:::: <generator object WebScraper.get_jobs at 0x0000016DE21DE7A0>
+2025-05-09 20:15:34,579 - INFO - Calling init_driver
+2025-05-09 20:15:34,579 - INFO - Finished init_driver
+2025-05-09 20:15:34,579 - INFO - result:::: None
+2025-05-09 20:16:00,803 - INFO - Calling get_job_data
+2025-05-09 20:16:00,803 - INFO - Finished get_job_data
+2025-05-09 20:16:00,803 - INFO - result:::: <generator object WebScraper.get_job_data at 0x0000016DE2117220>
+2025-05-09 20:16:00,816 - INFO - LinkedIn loaded successfully
+2025-05-09 20:16:54,466 - INFO - Calling cleanup_driver
+2025-05-09 20:16:58,751 - INFO - Finished cleanup_driver
+2025-05-09 20:16:58,751 - INFO - result:::: None
