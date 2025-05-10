@@ -104,13 +104,13 @@ def main_job():
             """
 
             # Send email once
-            # ms = MailSender()
-            # for r in recipients:
-            #     ms.send_mail(
-            #         recipient_email=r,
-            #         subject="Linked in List of Python/AI/ML ReactJS Job Opportunities in Lahore",
-            #         body=email_body
-            #     )
+            ms = MailSender()
+            for r in recipients:
+                ms.send_mail(
+                    recipient_email=r,
+                    subject="Linked in List of Python/AI/ML ReactJS Job Opportunities in Lahore",
+                    body=email_body
+                )
 
             # Save CSV once
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -128,15 +128,41 @@ def main_job():
 if __name__=="__main__":
     try:
         # main_job()
-        schedule.every(11).seconds.do(main_job)
-        # schedule.every().day.at("09:00:00").do(main_job)
-        # schedule.every().day.at("12:00:00").do(main_job)
-        # schedule.every().day.at("15:00:00").do(main_job)
-        # schedule.every().day.at("18:00:00").do(main_job)
-        # schedule.every().day.at("20:00:00").do(main_job)
-        # schedule.every().day.at("22:00:00").do(main_job)
-        # schedule.every().day.at("00:00:00").do(main_job)
-        # # Keep the script running
+      
+        schedule.every().monday.at("08:00").do(main_job)
+        schedule.every().monday.at("12:00").do(main_job)
+        schedule.every().monday.at("18:00").do(main_job)
+
+        # Tuesday
+        schedule.every().tuesday.at("09:00").do(main_job)
+        schedule.every().tuesday.at("11:00").do(main_job)
+        schedule.every().tuesday.at("17:00").do(main_job)
+
+        # Wednesday
+        schedule.every().wednesday.at("08:00").do(main_job)
+        schedule.every().wednesday.at("13:00").do(main_job)
+        schedule.every().wednesday.at("18:00").do(main_job)
+
+        # Thursday
+        schedule.every().thursday.at("09:00").do(main_job)
+        schedule.every().thursday.at("15:00").do(main_job)
+        schedule.every().thursday.at("19:00").do(main_job)
+
+        # Friday
+        schedule.every().friday.at("07:00").do(main_job)
+        schedule.every().friday.at("12:00").do(main_job)
+        schedule.every().friday.at("17:00").do(main_job)
+
+        # Saturday
+        schedule.every().saturday.at("10:00").do(main_job)
+        schedule.every().saturday.at("14:00").do(main_job)
+        schedule.every().saturday.at("18:00").do(main_job)
+
+        # Sunday
+        schedule.every().sunday.at("08:00").do(main_job)
+        schedule.every().sunday.at("11:00").do(main_job)
+        schedule.every().sunday.at("16:00").do(main_job)
+        # Keep the script running
         while True:
             schedule.run_pending()
             time.sleep(20)  # Check every minute
