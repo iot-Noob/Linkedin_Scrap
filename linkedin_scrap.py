@@ -23,10 +23,12 @@ class WebScraper:
         self.init_driver()
         
     def __del__(self):
-        self.cleanup_driver()
+        if self.driver:
+            self.cleanup_driver()
  
     def __exit__(self, exc_type, exc_val, exc_tb):
-        self.cleanup_driver()
+        if self.driver:
+            self.cleanup_driver()
     
     @logging_func
     def init_configs(self):
@@ -92,17 +94,12 @@ class WebScraper:
     def cleanup_driver(self):
         if self.driver:
             try:
-                if hasattr(self.driver, 'quit'):
-                    self.driver.quit()
-                    print("🛑 Browser closed")
+                self.driver.quit()
+                print("🛑 Browser closed successfully")
             except Exception as e:
-                print(f"⚠️ Error closing browser: {e}")
+                print(f"⚠️ Error during cleanup: {e}")
             finally:
-                try:
-                    self.driver.service.stop()  # Extra stop to ensure kill
-                except:
-                    pass
-                self.driver = None
+                self.driver = None  # Ensure dereference
 
     def random_delay(self, min_time=1.5, max_time=4.0):
         time.sleep(random.uniform(min_time, max_time))
@@ -177,8 +174,8 @@ class WebScraper:
             for job in all_jobs:
                 try:
                     curl=self.driver.current_url
-                    # Title
-                    title = job.find_element(By.CLASS_NAME, "base-search-card__title").text.strip()
+                    # Titleclass="sr-only"
+                    title = job.find_element(By.CLASS_NAME, "sr-only").text.strip()
 
                     # URL
                     url = job.find_element(By.CSS_SELECTOR, "a.base-card__full-link").get_attribute("href")
@@ -188,12 +185,15 @@ class WebScraper:
 
                     # Posted time
                     posted_time = job.find_element(By.CLASS_NAME, "job-search-card__listdate").text.strip()
+                    location = job.find_element(By.CLASS_NAME, "job-search-card__location").text.strip()
+
                     yield {
                     "main_url":curl,
                     "title":title,
                      "url":url,
                      "company_name":company,
-                     "posted_time":posted_time
+                     "posted_time":posted_time,
+                     "location":location
                     }
                     # print(f"Title: {title}")
                     # print(f"URL: {url}")
@@ -215,7 +215,7 @@ class WebScraper:
             self.init_driver() 
             for url in self.cfg["job_platform_config"]["url"]:
                 try:
-                    self.handle_captcha()
+              
                     print(f"🎯 Applying for position at job: {url}")
                     self.driver.get(url)
                     #self.random_delay(2, 3)
