@@ -12,9 +12,12 @@ import time
 import toml
 import os
 import sys
+import pandas as pd
 from main_logging import logging_func,logging
+import pathlib
 class WebScraper:
     def __init__(self):
+        self.csv_path=None
         self.driver = None
         self.cfg = None
         self.found = False
@@ -65,7 +68,13 @@ class WebScraper:
                 val = self.cfg["credentials"].get(key)
                 if not val or str(val).strip() == "":
                     raise ValueError(f"Missing or empty '{key}' in [credentials] section")
-
+                
+            self.csv_path = self.cfg["output_paths"].get("main_csv_path")
+            if not self.csv_path:
+                raise ValueError("❌ main_csv_path not in config or is empty")
+            if not os.path.exists(self.csv_path):
+                os.makedirs(self.csv_path, exist_ok=True)  # Create directory if missing
+                
             print("✅ Config loaded and validated successfully!")
             logging.info("config load sucess ✅")
         except Exception as e:
@@ -121,6 +130,64 @@ class WebScraper:
             print(f"CAPTCHA handling failed: {e}")
             return False
     @logging_func
+    def load_data_csv(self):
+        if self.csv_path is None or not os.path.exists(self.csv_path):
+            raise ValueError("❌ Error: path does not exist or is not set")
+ 
+        try:
+            for root, _, files in os.walk(self.csv_path):
+                for f in files:
+                    if f.lower().endswith(".csv"):
+                        yield os.path.join(root, f)
+        except Exception as e:
+            raise ValueError(f"❌ Error loading CSV files: {e}")
+
+    @logging_func
+    def get_combine_data(self):
+        try:
+            all_dfs = []
+            for csv_file in self.load_data_csv():
+                try:
+                    df = pd.read_csv(csv_file, on_bad_lines='skip')  # Skip malformed rows
+                    required_cols = ['title', 'company_name', 'location', 'url']
+                    if not all(col in df.columns for col in required_cols):
+                        print(f"⚠️ Skipping CSV with missing columns: {csv_file}")
+                        continue
+                    all_dfs.append(df)
+                except Exception as e:
+                    print(f"⚠️ Skipping corrupted CSV {csv_file}: {e}")
+                    continue
+
+            if not all_dfs:
+                print("⚠️ No valid CSV files found to combine.")
+                return pd.DataFrame()
+
+            ads = pd.concat(all_dfs, ignore_index=True)
+            ads.drop_duplicates(subset=['title', 'company_name', 'location','url'], inplace=True)
+            ads.dropna(inplace=True)
+
+            return ads
+        except Exception as e:
+            print(f"❌ Error occurred while loading dataset: {e}")
+            return pd.DataFrame()
+        
+    @logging_func
+    def check_duplicate(self,job, df_existing):
+        try:
+            # Create a unique identifier (tuple) for the job based on key fields
+            job_identifier = (
+                job["title"],
+                job["company_name"],
+                job["location"],
+                job["url"]
+            )
+            # Convert the DataFrame into a set of unique job identifiers (tuples)
+            df_existing_identifiers = set(df_existing[['title', 'company_name', 'location','url']].apply(tuple, axis=1))
+
+            return job_identifier in df_existing_identifiers
+        except Exception as e:
+            raise ValueError(f"Error find dublicate from csv to web scrap data due to {e}")
+    @logging_func
     def get_job_data(self):
         try:
         
@@ -173,28 +240,52 @@ class WebScraper:
             print(f"Total jobs found: {len(all_jobs)}")
             for job in all_jobs:
                 try:
-                    curl=self.driver.current_url
-                    # Titleclass="sr-only"
-                    title = job.find_element(By.CLASS_NAME, "sr-only").text.strip()
+                    curl = self.driver.current_url
+
+                    # Title
+                    title_elements = job.find_elements(By.CLASS_NAME, "sr-only")
+                    title = title_elements[0].text.strip() if title_elements else "N/A"
 
                     # URL
-                    url = job.find_element(By.CSS_SELECTOR, "a.base-card__full-link").get_attribute("href")
+                    url_elements = job.find_elements(By.CSS_SELECTOR, "a.base-card__full-link")
+                    url = url_elements[0].get_attribute("href") if url_elements else "N/A"
 
                     # Company name
-                    company = job.find_element(By.CLASS_NAME, "base-search-card__subtitle").text.strip()
+                    company_elements = job.find_elements(By.CLASS_NAME, "base-search-card__subtitle")
+                    company = company_elements[0].text.strip() if company_elements else "N/A"
 
                     # Posted time
-                    posted_time = job.find_element(By.CLASS_NAME, "job-search-card__listdate").text.strip()
-                    location = job.find_element(By.CLASS_NAME, "job-search-card__location").text.strip()
+                    posted_time_elements = job.find_elements(By.CLASS_NAME, "job-search-card__listdate")
+                    posted_time = posted_time_elements[0].text.strip() if posted_time_elements else "N/A"
 
-                    yield {
-                    "main_url":curl,
-                    "title":title,
-                     "url":url,
-                     "company_name":company,
-                     "posted_time":posted_time,
-                     "location":location
+                    # Location
+                    location_elements = job.find_elements(By.CLASS_NAME, "job-search-card__location")
+                    location = location_elements[0].text.strip() if location_elements else "N/A"
+
+                    mdata = {
+                        "main_url": curl,
+                        "title": title,
+                        "url": url,
+                        "company_name": company,
+                        "posted_time": posted_time,
+                        "location": location
                     }
+                   
+                    
+                    if self.csv_path is None or not any(self.load_data_csv()):
+                        print("yield normal data without clone")
+                        logging.info("yield normal data without clone")
+                        yield mdata
+                    else:
+                        lpd=self.get_combine_data()
+                     
+                        if not self.check_duplicate(mdata,lpd):
+                            yield mdata
+                            print(f"yield   data with clean dublicates")
+                            logging.info(f"yield   data with clean dublicates")
+                        else:
+                            print(f"🛑 Duplicate skipped: {title} at {company}")
+                            logging.info(f"🛑 Duplicate skipped: {title} at {company}")
                     # print(f"Title: {title}")
                     # print(f"URL: {url}")
                     # print(f"Company: {company}")
